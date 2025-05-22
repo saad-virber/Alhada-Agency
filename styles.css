@@ -121,4 +121,8 @@ button {
     margin: 0;
     padding: 2rem;
   }
+  
+  #description {
+    width: 80%;
+  }
 }
