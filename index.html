@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Alhada Agency Survey Form</title>
+    <link rel='stylesheet' href='styles.css'
+  </head>
+  <body>
+    <div class='container'>
+    <h1 id="title">Service Survey Form</h1>
+    <p id="description">Thanks for chosing <strong><em>Alhada Agency</em></strong></p>
+    <p id="description">We hope we met the level of your expectaions ;)</p>
+    <form id="survey-form">
+      <div class='info'>
+      <label id="name-label">
+        Name:
+        <input required id="name" type="text" placeholder="Ex. Khaled Tayebi">
+      </label>
+      <label id="email-label">
+        Email:
+        <input required id="email" type="email" placeholder="example@email.com">
+        </label>
+        <label id="number-label">
+          Phone Number:
+          <input type="number" id="number" min="10" max="16" size="18" placeholder="1234567890">
+        </label>
+        </div>
+        <div class='none'>
+        <filedset>
+          <legend>On a scale of 5 how much would you rate our service?</legend>
+          <select id="dropdown">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option selected>5</option>
+            <input type='checkbox' value='bs'>
+            <input type='checkbox' value='ds'>
+          </select>
+        </fieldset>
+        </div>
+        <fieldset>
+          <legend>Who was your agent?</legend>
+          <label>
+            <input
+            type="radio"
+            name="agent"
+            value="Boomama">
+            Bouaamama
+          </label>
+          <label>
+            <input
+            type="radio"
+            name="agent"
+            value="Fahd"
+            checked>
+            Fahd
+          </label>
+          <label>
+            <input
+            type="radio"
+            name="agent"
+            value="Lmokhtar">
+            Lmokhtar
+          </label>
+          <label>
+            <input
+            type="radio"
+            name="agent"
+            value="Laayachi">
+            Laayachi
+          </label>
+        </fieldset>
+        <fieldset class='scholarship'>
+          <legend>What type of scholarship you got?</legend>
+          <p>Tuition</p>
+  <label>
+  <input type="radio" name="tuition" value="None">
+  None
+</label>
+
+<label>
+  <input type="radio" name="tuition" value="1%-25%">
+  1-25% Tuition fees Covered
+</label>
+
+<label>
+  <input type="radio" name="tuition" value="26-50%">
+  26-50% Tuition fees Covered
+</label>
+
+<label>
+  <input type="radio" name="tuition" value="51-75%">
+  51-75% Tuition fees Covered
+</label>
+
+<label>
+  <input type="radio" name="tuition" value="76-99%">
+  76-99% Tuition fees Covered
+</label>
+
+<label>
+  <input type="radio" name="tuition" value="100%">
+  100% Tuition fees Covered
+</label>
+
+<p>Accommodation</p>
+
+<label>
+  <input type="radio" name="accommodation" value="None">
+  None
+</label>
+
+<label>
+  <input type="radio" name="accommodation" value="Accommodation Free">
+  Accommodation Free
+</label>
+<p>Stipend</p>
+
+<label>
+  <input type="radio" name="stipend" value="None">
+  None
+</label>
+
+<label>
+  <input type="radio" name="stipend" value="stipend<1000">
+  Stipend 1–1000 CNY
+</label>
+
+<label>
+  <input type="radio" name="stipend" value="stipend1000+">
+  Stipend 1000+ CNY
+</label>
+
+        </fieldset>
+        <p>Help us improve our service by droping some feedback:)</p>
+        <textarea height="20" width="50"></textarea>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    </div>
+  </body>
+</html>
