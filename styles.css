@@ -100,3 +100,14 @@ button {
   margin: auto;
   margin-top:  8vh;
 }
+
+@media (max-aspect-ratio: 9/16) {
+  body {
+    padding: 2rem 0;
+    color: black;
+  }
+  .container {
+    width: 100%;
+    margin-left: 0;
+  }
+}
